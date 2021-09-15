@@ -1,0 +1,4 @@
+com/example/mycontactlist/MainActivity.java
+ com.example.mycontactlist.MainActivity
+com/example/mycontactlist/BuildConfig.java
+ com.example.mycontactlist.BuildConfig
