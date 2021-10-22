@@ -11,7 +11,7 @@
 9-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:5:5-21:19
+11-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:5:5-30:19
 12        android:allowBackup="true"
 12-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,22 +29,40 @@
 20        android:theme="@style/Theme.MyContactList" >
 20-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:11:9-51
 21        <activity
-21-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:12:9-20:20
-22            android:name="com.example.mycontactlist.MainActivity"
-22-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:13:13-41
-23            android:exported="true" >
+21-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:12:9-14:39
+22            android:name="com.example.mycontactlist.ContactSettingsActivity"
+22-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:13:13-52
+23            android:exported="true" />
 23-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:14:13-36
-24            <intent-filter>
-24-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:15:13-19:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:16:17-69
-25-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:16:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:18:17-77
-27-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:18:27-74
-28            </intent-filter>
-29        </activity>
-30    </application>
-31
-32</manifest>
+24        <activity
+24-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:15:9-17:39
+25            android:name="com.example.mycontactlist.ContactMapActivity"
+25-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:16:13-47
+26            android:exported="true" />
+26-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:17:13-36
+27        <activity
+27-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:18:9-20:39
+28            android:name="com.example.mycontactlist.ContactListActivity"
+28-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:19:13-48
+29            android:exported="true" />
+29-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:20:13-36
+30        <activity
+30-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:21:9-29:20
+31            android:name="com.example.mycontactlist.MainActivity"
+31-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:22:13-41
+32            android:exported="true" >
+32-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:23:13-36
+33            <intent-filter>
+33-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:24:13-28:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:25:17-69
+34-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:25:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:27:17-77
+36-->/android/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:27:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>

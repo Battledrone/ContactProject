@@ -19,6 +19,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyContactList" >
         <activity
+            android:name="com.example.mycontactlist.ContactSettingsActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.mycontactlist.ContactMapActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.mycontactlist.ContactListActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.mycontactlist.MainActivity"
             android:exported="true" >
             <intent-filter>
